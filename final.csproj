@@ -10,6 +10,13 @@
 
   <ItemGroup>
     <PackageReference Include="OpenTK" Version="4.8.2" />
+    <PackageReference Include="AssimpNet" Version="4.1.0" />
+    <PackageReference Include="StbImageSharp" Version="2.27.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources/**" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Shaders/**" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
